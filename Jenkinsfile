@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Building %BRANCH_NAME%'
+        echo 'Building $BRANCH_NAME'
       }
     }
   }
